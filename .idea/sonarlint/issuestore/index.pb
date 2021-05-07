@@ -15,3 +15,19 @@ T
 $src/main/java/pages/ProductPage.java,2\7\27e2de96d614cf1e8b5dde39c36f6f2dd273013b
 [
 +src/main/java/pages/AuthenticationPage.java,5\c\5c5fd99854550f7b20527370b38b66d969356393
+W
+'src/main/java/pages/SignInStepPage.java,f\8\f8e275fd8641721853032484976a4774a8c878e3
+X
+(src/main/java/pages/PaymentStepPage.java,c\1\c1e6fae06c9fa1765d291cc5b7794d37bb2b3e6d
+Y
+)src/main/java/pages/ShippingStepPage.java,9\0\90ab4fa27d4acd9b6573ee54d43c414c7c4b3897
+X
+(src/main/java/pages/AddressStepPage.java,2\d\2dfc9a35f8c66b9845c4542a54553e88790d8032
+^
+.src/main/java/pages/OrderConfirmationPage.java,3\4\34736fc6b6948cfcd81239afb05849a4e1aa5813
+X
+(src/main/java/pages/SummaryStepPage.java,5\a\5a1844e82f7e48cd114a90a653861ce9449d5e1f
+V
+&src/main/java/pages/MyAccountPage.java,f\3\f3b54683b4a3d6ec5bc1e41dfd4e946c67c3f556
+F
+PROCESO DE PRUEBAS.txt,9\5\9502c80106513b4238e2b3a12f37e2d1dba8b311

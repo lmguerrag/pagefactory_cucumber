@@ -23,7 +23,7 @@ public class TestHomePage extends BaseTest {
     public void createNewAccountTest() throws InterruptedException {
         AuthenticationPage authenticationPage = homePage.clickSignInButton();
         Thread.sleep(3000);
-        authenticationPage.setEmailAddressField("werwr@example.com");
+        authenticationPage.setEmailAddressField("qeqwsdf@example.com");
         authenticationPage.clickCreateAccountButton();
         Thread.sleep(3000);
         authenticationPage.setFirstNameField("Luis");

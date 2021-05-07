@@ -1,4 +1,4 @@
-basetest/BaseTest.java
- basetest.BaseTest
 homepagetest/TestHomePage.java
  homepagetest.TestHomePage
+basetest/BaseTest.java
+ basetest.BaseTest

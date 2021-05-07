@@ -31,3 +31,5 @@ V
 &src/main/java/pages/MyAccountPage.java,f\3\f3b54683b4a3d6ec5bc1e41dfd4e946c67c3f556
 F
 PROCESO DE PRUEBAS.txt,9\5\9502c80106513b4238e2b3a12f37e2d1dba8b311
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

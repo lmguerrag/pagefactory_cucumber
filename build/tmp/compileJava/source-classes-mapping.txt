@@ -1,0 +1,24 @@
+pages/SignInStepPage.java
+ pages.SignInStepPage
+utils/Waiter.java
+ utils.Waiter
+pages/OrderConfirmationPage.java
+ pages.OrderConfirmationPage
+pages/PaymentStepPage.java
+ pages.PaymentStepPage
+pages/CartPage.java
+ pages.CartPage
+pages/AddressStepPage.java
+ pages.AddressStepPage
+pages/ProductPage.java
+ pages.ProductPage
+pages/SummaryStepPage.java
+ pages.SummaryStepPage
+pages/ShippingStepPage.java
+ pages.ShippingStepPage
+pages/MyAccountPage.java
+ pages.MyAccountPage
+pages/AuthenticationPage.java
+ pages.AuthenticationPage
+pages/HomePage.java
+ pages.HomePage

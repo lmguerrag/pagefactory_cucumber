@@ -1,10 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import utils.Waiter;
 
@@ -39,24 +36,18 @@ public class AuthenticationPage {
     private By aliasAddressField = By.id("alias");
     private By registerButton = By.id("submitAccount");
 
-
     public AuthenticationPage(WebDriver driver){
         this.driver = driver;
         waiter = new Waiter(driver);
     }
 
     public void setEmailAddressField(String email){
+        waiter.waitForElementPresent(emailAddressField);
         driver.findElement(emailAddressField).sendKeys(email);
     }
 
-    public void clickCreateAccountButton() throws InterruptedException {
+    public void clickCreateAccountButton() {
         driver.findElement(createAccountButton).click();
-    }
-
-    public void waitForCreateAccountFormVisible(){
-        //waiter.waitForElement(createAccountForm);
-        WebElement accountForm = driver.findElement(createAccountForm);
-        ((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('style','visibility:visible')", accountForm);
     }
 
     public void clickRadioButtonMr(){
@@ -64,6 +55,7 @@ public class AuthenticationPage {
     }
 
     public void setFirstNameField(String firstName){
+        waiter.waitForElementPresent(firstNameField);
         driver.findElement(firstNameField).sendKeys(firstName);
     }
 

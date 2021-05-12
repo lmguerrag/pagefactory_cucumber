@@ -1,4 +1,10 @@
-basetest/BaseTest.java
- basetest.BaseTest
+runners/TestRunner.java
+ runners.TestRunner
 homepagetest/TestChallenge.java
  homepagetest.TestChallenge
+basetest/BaseTest.java
+ basetest.BaseTest
+homepagetest/PageFactoryTest.java
+ homepagetest.PageFactoryTest
+step_definitions/LoginSteps.java
+ step_definitions.LoginSteps

@@ -18,12 +18,12 @@ public class ProductPage {
     }
 
     public void clickAddToCartButton(){
-        waiter.waitForElementPresent(addToCartButton);
+        //waiter.waitForElementPresent(addToCartButton);
         driver.findElement(addToCartButton).click();
     }
 
     public CartPage clickProceedToCheckout(){
-        waiter.waitForElementVisible(layerCart);
+        //waiter.waitForElementVisible(layerCart);
         driver.findElement(proceedCheckoutButton).click();
         return new CartPage(driver);
     }

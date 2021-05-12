@@ -1,10 +1,7 @@
 
-P
-java:S1068#"3Remove this unused "countryDropDown" private field.(ıƒ·ÿ8ã¿”/
 U
-java:S1068"8Remove this unused "radioButtonContainer" private field.(°¼¢Ú8‡¨ş©”/
-”
-java:S11304"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ú³³8àÜş½”/
-]	java:S1259"<This block of commented-out lines of code should be removed.(¬íÕ¦ûÿÿÿÿ8ı‘İ½”/
-b
-java:S1128"ERemove this unused import 'org.openqa.selenium.interactions.Actions'.(ÅÑÃ8¡õ¡¸”/
+java:S1068"8Remove this unused "radioButtonContainer" private field.(°¼¢Ú8‡¨ş©”/
+R
+java:S1068"5Remove this unused "createAccountForm" private field.(ùÀä8Úæö•/
+P
+java:S1068 "3Remove this unused "countryDropDown" private field.(ıƒ·ÿ8ã¿”/

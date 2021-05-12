@@ -3,8 +3,6 @@
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 T
 $src/test/java/basetest/BaseTest.java,c\f\cf9309327158b196b80850b4e9ec6ffb3ba89d71
-\
-,src/test/java/homepagetest/TestHomePage.java,c\9\c9857e55cda36fbeed0dab5dfbc9706a35e11bdb
 Q
 !src/main/java/pages/HomePage.java,9\6\9655b2a35fae75d92697b79cda62632f93f33e6e
 Q
@@ -33,3 +31,11 @@ F
 PROCESO DE PRUEBAS.txt,9\5\9502c80106513b4238e2b3a12f37e2d1dba8b311
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+]
+-src/test/java/homepagetest/TestChallenge.java,6\2\62ac24217eea19e49f81df920ed1f777f2f6d596
+Z
+*src/main/java/pagefactory/HomeFactory.java,9\1\91507d1b749c541f3016b46c2a3cd86710db453a
+[
++src/main/java/pagefactory/LoginFactory.java,f\3\f3c3d5b0950e5469a27dc96ca9118b926177a4fa
+_
+/src/test/java/homepagetest/PageFactoryTest.java,0\7\07f751e8288b756682fd9f1abe501cf5fe2ffaba

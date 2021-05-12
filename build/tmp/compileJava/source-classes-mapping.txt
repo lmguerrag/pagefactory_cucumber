@@ -1,24 +1,28 @@
-pages/ShippingStepPage.java
- pages.ShippingStepPage
-pages/MyAccountPage.java
- pages.MyAccountPage
-pages/OrderConfirmationPage.java
- pages.OrderConfirmationPage
 pages/PaymentStepPage.java
  pages.PaymentStepPage
-pages/SummaryStepPage.java
- pages.SummaryStepPage
-utils/Waiter.java
- utils.Waiter
-pages/CartPage.java
- pages.CartPage
-pages/HomePage.java
- pages.HomePage
-pages/ProductPage.java
- pages.ProductPage
+pages/ShippingStepPage.java
+ pages.ShippingStepPage
 pages/AuthenticationPage.java
  pages.AuthenticationPage
-pages/SignInStepPage.java
- pages.SignInStepPage
+pages/SummaryStepPage.java
+ pages.SummaryStepPage
+pages/HomePage.java
+ pages.HomePage
+pages/OrderConfirmationPage.java
+ pages.OrderConfirmationPage
 pages/AddressStepPage.java
  pages.AddressStepPage
+pages/MyAccountPage.java
+ pages.MyAccountPage
+utils/Waiter.java
+ utils.Waiter
+pages/ProductPage.java
+ pages.ProductPage
+pages/CartPage.java
+ pages.CartPage
+pages/SignInStepPage.java
+ pages.SignInStepPage
+pagefactory/HomeFactory.java
+ pagefactory.HomeFactory
+pagefactory/LoginFactory.java
+ pagefactory.LoginFactory

@@ -29,6 +29,7 @@ public class TestChallenge extends BaseTest {
         AuthenticationPage authenticationPage = homePage.clickSignInButton();
         authenticationPage.setEmailAddressField(email);
         authenticationPage.clickCreateAccountButton();
+        authenticationPage.clickRadioButtonMr();
         authenticationPage.setFirstNameField(firstName);
         authenticationPage.setLastNameField(lastName);
         authenticationPage.setPasswordField(password);

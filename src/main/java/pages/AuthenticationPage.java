@@ -16,7 +16,7 @@ public class AuthenticationPage {
     private By radioButtonContainer = By.cssSelector("div.account_creation div.clearfix");
     private By emailAddressField = By.id("email_create");
     private By createAccountButton = By.id("SubmitCreate");
-    private By radioButtonMr = By.id("//label[@for='id_gender1']");
+    private By radioButtonMr = By.id("uniform-id_gender1");
     private By firstNameField = By.id("customer_firstname");
     private By lastNameField = By.id("customer_lastname");
     private By passwordField = By.id("passwd");
@@ -51,6 +51,7 @@ public class AuthenticationPage {
     }
 
     public void clickRadioButtonMr(){
+        waiter.waitForElementPresent(radioButtonMr);
         driver.findElement(radioButtonMr).click();
     }
 
